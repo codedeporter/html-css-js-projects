@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #000000;
+    color: #d3d3d3;
+    font-family: cursive;
+
+
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+.counter {
+    font-size: 40px;
+}
+
+.loading-bar-back {
+    position: absolute;
+    height: 8px;
+    background-color: #d3d3d3;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+
+}
+.loading-bar-front {
+    position: absolute;
+    height: 8px;
+    background-color: #ff4500;
+    width: 0%;
+    border-radius: 5px;
+    border: none;
+
+}
